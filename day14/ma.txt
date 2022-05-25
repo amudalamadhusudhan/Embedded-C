@@ -1,0 +1,3 @@
+student roll number =1
+ student name =1
+ stdent markd =0
