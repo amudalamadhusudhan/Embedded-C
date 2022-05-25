@@ -1,0 +1,3 @@
+student roll number =1
+ student name =madhu
+ stdent markd =10
