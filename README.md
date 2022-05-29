@@ -20,7 +20,7 @@ Determine the value of each of the following expressions.
     Take radius “r” as input.
 7. Develop a C program to calculate simple interest using the formula I=PTR/100. 
 
-**Day-3 Assignments**
+**Day3 Assignments**
 1. Develop a C program which adds all numbers from 1 to N, except those which are divisible by 5. Implement this using for loop and continue statement. 
 2. Develop a C program to find sum of all odd numbers upto N using while loop. 
 3. Write a program to find whether given number is palindrome or not. 
@@ -77,7 +77,7 @@ All the elements in the array are integers.
 12. Write a C Program to display three-dimensional array elements with addresses
 
 
-**Day-6 Assignments**
+**Day6 Assignments**
  Strings
 1. Write a C program to perform the following operations on two strings using intrinsic functions.
 Concatenate two strings
@@ -97,10 +97,7 @@ Reverse the string
 5. Write a C Program to Count the Number of Vowels, Consonants, digits and remaining characters in given string
 6. Write a C program to remove characters in a given string except alphabets
 
-
-**
-Day7 Assignments**
-
+ **DAY7 POINTERS**
  Pointers
 1. Write a C program that declares and initializes (to any value you like) a char, an int, a double and a float. Your program should then print the address of, and value stored in, each of the variables. 
 Use the format string "%u" [%p in hex] to print the addresses as unsigned integers. 
@@ -108,6 +105,90 @@ Hint: You can use the character “&” to find addresses.
 
 2. Write a C program to declare an integer and an integer pointer to it. Initialize the integer variable. Print the value of the int variable using pointer variable.
 Hint: You can use dereferencing operator *.
+
+**Day8 Assignments**
+ Pointers
+1. Write a program to perform the swap operation 
+Write a swap function and use call by reference.
+2.  Write a C program to read through an array of any type using pointers. Copy the elements of the first array to second array using pointers.
+Hint: a[i] = *(a+i)
+3. Write a program in C to store n elements(read from standard input) in an array and print the elements using pointer
+4. A C program contains the following declaration 
+int x[8]= {10,20,30,40,50,60,70,80}; 
+What is the value of x? (and understand)
+What is the value of (x+2)? (and understand)
+What is the value of *x? 
+What is the value of (*x+2)? 
+What is the value of *(x+2)?. 
+
+Pointers and strings 
+
+5. C program to search element in array (1-D)using pointers
+6. Write a C program to print all elements of two dimensional array using pointers.
+7. Implement string library functions strlen, strcpy, strcat, strcmp with same return values and all error handling features using pointers. 
+8. Write a C program to find reverse of a string using pointers.
+9. Write a program in C to count the number of vowels and consonants in a string using a pointer.
+**
+**DAY9 PART1**
+
+1.  Lower case to Uppercase: Convert a string from lower case to uppercase using pointers. Write a separate function to do the conversion. Do not use intrinsic functions. 
+2. Uppercase to Lower case: Convert a string from upper case to lowercase using pointers. Write a separate function to do the conversion. Do not use intrinsic functions. 
+3. Write a C program to demonstrate double pointer.
+(Practice all double pointer programs covered in class ppt)
+
+4. Write a program to read n number of strings using two-dimensional character array, sort them and display the sorted list of strings on the screen. (use strcmp and strcpy library functions) 
+
+5. Write a C program with a function any (s1, s2). This function returns the first location (index of location) in the string s1 which matches with any string in s2 otherwise return NULL. Do not use string library functions (strstr).
+
+
+**Day9 Part2**
+1. A C program contains the following declaration 
+
+float table[2][3] = { { 1.1,1.2,1.3},{2.1,2.2,2.3}}; 
+a) What is the meaning of a table? 
+b) What is the meaning of (table+1)? 
+c) What is the meaning of *(table+1)? 
+d) What is the meaning of (*(table+1)+1)? 
+e) What is the meaning of (*(table)+1)? 
+f) What is the value of *(*(table+1) +1)? 
+g) What is the value of *(*(table)+1)? 
+h) What is the value of *(*(table+1)? 
+i) What is the value of *(*(table) + 1)+1? 
+
+2. A C program contains the following declaration 
+
+char *color[6] = {“red”, “green”, “blue”, “white”, “black”, “yellow”}; 
+a. What is the meaning of color? 
+b. What is the meaning of (color+2); 
+c. What is the value of *color? 
+d. What is the value of *(color+2)? 
+e. How do color[5] and *(color + 5) differ?. 
+
+**Day10 Assignments**
+1.  Student record management System 
+Write a C program to keep records and perform statistical analysis for a class of 5 students.  The information of each student contains: 
+RollNumber
+Name
+Sex
+Exam Score.  
+Do following operations
+1. Add student records
+2. View all student records
+3. Show student who gets the maximum score
+4. Show student who gets the minimum score
+
+2. Define structure with two members (one int and other char). Also define union with two members (one int and other char). Print the sizes of structure and union in number of bytes. Initialize union/structures members and print.
+
+3. Define a structure “complex” (use typedef) to read two complex numbers and perform addition, subtraction of these two complex numbers and display the result.
+
+4. Write a program to read and print an Employee’s details using Structure.
+Use array of structures and pointer to the array of structures concepts.
+
+
+
+
+
+
 
 
 
