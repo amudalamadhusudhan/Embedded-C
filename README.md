@@ -76,7 +76,31 @@ All the elements in the array are integers.
 11.  Write a C program to print the transpose and inverse matrices of a given matrix.
 12. Write a C Program to display three-dimensional array elements with addresses
 
-Day6 Assignments
+
+**Day-6 Assignments**
+ Strings
+1. Write a C program to perform the following operations on two strings using intrinsic functions.
+Concatenate two strings
+Find the length of each string
+Compare two strings
+Copy string
+Find whether string1 is the subset of the second string or not(strstr)
+2. Write a C program to perform the following operations on two strings without using string library functions.
+Concatenate two strings
+Find the length of each string
+Compare two strings
+Copy string
+Reverse the string
+
+3. Write a program to convert lower case string to upper case string and vice versa. 
+4. Write a program to print out all rotations of a string typed in. For eg:if the input is “Space”, the output should be: space paces acesp cespa espac.
+5. Write a C Program to Count the Number of Vowels, Consonants, digits and remaining characters in given string
+6. Write a C program to remove characters in a given string except alphabets
+
+
+**
+Day7 Assignments**
+
  Pointers
 1. Write a C program that declares and initializes (to any value you like) a char, an int, a double and a float. Your program should then print the address of, and value stored in, each of the variables. 
 Use the format string "%u" [%p in hex] to print the addresses as unsigned integers. 
