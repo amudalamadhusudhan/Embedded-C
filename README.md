@@ -185,6 +185,55 @@ Do following operations
 Use array of structures and pointer to the array of structures concepts.
 
 
+**DAY11**
+
+1. Write a program to read and print an Employee’s details using Structure.
+Use array of structures and pointer to the array of structures concepts.
+
+2. Write c programs to demonstrate various storages classes 
+
+3. Write a program to demonstrate integer, float, character and string constants.
+
+**Day 12 Assignments**
+C Preprocessor:
+1.  Write a program to find the volume of a sphere using macros.
+Pass the radius as the argument to the macro.
+
+2. Write a program to perform addition of two int or char or float numbers.
+If we need to do the addition of two integers then it should compile the code related to the addition of integers.
+If we need to do the addition of two float then it should compile the code related to the addition of float numbers.
+Use conditional compilation
+
+3. Develop programs to demonstrate the functionality of preprocessor operator ## and also conditional compilation. 
+
+**Day-13 Assignments**
+ 
+1. Write a program to read the Roll No, name and marks of a student and store it in a text file.
+If the file already exists, add information to it.
+2. Write a menu driven C program to implement “wc” (i.e NO. of lines, No. of characters and No. of words in given text file) utility of Linux.  
+  	  Take file as an input and print the following:
+a) Number of characters
+b) Number of lines
+c) Number of words
+3. Write a program that will concatenate two files, that is append the contents of one file at the end of another file and write the results into a third file.
+4. Write a program to read the Roll No, name and marks of a student and store it in to a binary file and read student records and print on standard output (use fwrite and fread library functions).
+5. Write a C program to demonstrate functionality of the fseek library function. (Use SEEK_SET, SEEK_CUR, SEEK_END. )
+
+**Day 14 Assignments**
+Command line arguments:
+1. Write a program to find the smallest and greatest integers among all integers, which are provided through the command line.
+2. Write a program to read (from standard input) the Roll No, name and marks of a student and store it in a text file (Note: Provide text file name through command line).
+If the file already exists, add information to it.
+
+
+Makefile
+3. Write a Make file for cleaning and building executables from multiple c source files, and header files 
+
+
+
+
+
+
 
 
 
