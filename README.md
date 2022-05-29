@@ -97,7 +97,7 @@ Reverse the string
 5. Write a C Program to Count the Number of Vowels, Consonants, digits and remaining characters in given string
 6. Write a C program to remove characters in a given string except alphabets
 
- **DAY7 POINTERS**
+ **DAY7**
  Pointers
 1. Write a C program that declares and initializes (to any value you like) a char, an int, a double and a float. Your program should then print the address of, and value stored in, each of the variables. 
 Use the format string "%u" [%p in hex] to print the addresses as unsigned integers. 
@@ -128,7 +128,9 @@ Pointers and strings
 7. Implement string library functions strlen, strcpy, strcat, strcmp with same return values and all error handling features using pointers. 
 8. Write a C program to find reverse of a string using pointers.
 9. Write a program in C to count the number of vowels and consonants in a string using a pointer.
-**
+
+
+
 **DAY9 PART1**
 
 1.  Lower case to Uppercase: Convert a string from lower case to uppercase using pointers. Write a separate function to do the conversion. Do not use intrinsic functions. 
