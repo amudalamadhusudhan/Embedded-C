@@ -1,0 +1,14 @@
+#include <stdio.h> 
+int main() 
+{ 
+		int num[5] = {21,18,57,45,50};
+ 	int i; 
+		for(i=0;i<5;i++)
+ 		{ 
+			//printf("\n  %d element addr: %p",i,num+i);
+printf("\n Array Element  %d . %d  %d addr.%lu .. %lu",i,num[i],*(num+i),num+i,&num[i]);
+			//printf("\n Integer Array Element *(num + %d) : %d  ",i,*(num+i));
+ 		} 
+		return 0;
+ }
+

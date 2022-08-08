@@ -13,7 +13,7 @@ void fun(int n)
 {
     if(n > 0)
     {
-        fun(++n);
+        fun(--n);
         printf("%d,", n);
         //fun(--n);
     }

@@ -1,0 +1,34 @@
+//============================================================
+// size of the array in main and fun
+//============================================================
+
+#include<stdio.h>
+
+void display (int[], int);
+//void display(int , int);
+//void display(int a[3], int);
+
+int
+main ()
+{
+  int arr[3];
+  int i;
+
+
+  printf ("In function\n");
+  printf ("%d\n", sizeof (arr));
+  display (arr, 3);
+
+
+  return 0;
+}
+
+//void display(int arr[3])
+void
+display (int arr[], int n)
+{
+  printf ("In function\n");
+  printf ("%d\n", sizeof (arr));
+
+  return;
+}
