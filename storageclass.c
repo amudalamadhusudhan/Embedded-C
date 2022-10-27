@@ -142,8 +142,7 @@ int main()
     printf("%d..", m);
     printf("%d..", n);
     // printf("%d..", z);
-
-    return 0;
+    .return 0;
 }
 
 // This code is improved by RishabhPrabhu
